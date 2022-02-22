@@ -1,18 +1,18 @@
 # Site settings
-title: Scateu Blog - S.B.
-email: scateu@gmail.com
+title: Anjue’S BLOG- A.B.
+email: anjue39@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Yet another Scateu Blog (aka SB)
+  Yet another Anjue Blog (aka AB)
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://scateu.github.io" # the base hostname & protocol for your site
-twitter_username: scateu
-github_username:  scateu
-linkedin_url: "http://cn.linkedin.com/in/scateu"
+url: "https://github.com/anjue39/anjue39.github.io" # the base hostname & protocol for your site
+twitter_username: anjue39
+github_username:  anjue39
+linkedin_url: "https://anjue39.github.io"
 facebook_url: "https://www.facebook.com/kangw2"
 flickr_url: ""
 disqus_shortname: scateugithubio
 
-imageurl: "https://scateu.github.io/images"
+imageurl: "https://anjue39.github.io/images"
 
 # Build settings
 markdown: kramdown
