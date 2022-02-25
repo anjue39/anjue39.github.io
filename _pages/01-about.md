@@ -32,15 +32,6 @@ and let the rest of the world mirror it ;) - Torvalds, Linus (1996-07-20).
 - Religion is a culture of faith; science is a culture of doubt.  - Richard Feynman
 - "If you want total security, go to prison.  There you're fed, clothed, given medical care and so on. The only thing lacking ... is freedom." - President Eisenhower
 
-
-## 装备
-
-见 [Devices页面](../devices)，欢迎来借=。=
-
-## CV
-
- - [CV.txt](https://gist.github.com/scateu/ddfa67766de8b7151f66c03f749dc87b)
-
 ## 业余无线电呼号 CallSign: BH1RLW
 
 <http://qrz.com/db/BH1RLW>
