@@ -379,4 +379,5 @@ D-->>A: Dashed open arrow
 
 
 [^footnote]: 这是一个 *注脚* 的 **文本**。
+
 [^footnote2]: 这是另一个 *注脚* 的 **文本**。
