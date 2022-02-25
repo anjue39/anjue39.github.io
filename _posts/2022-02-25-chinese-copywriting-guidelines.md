@@ -41,7 +41,7 @@ layout: post
 错误：
 
 > 在LeanCloud上，数据存储是围绕AVObject进行的。
-> 
+>
 > 在 LeanCloud上，数据存储是围绕AVObject 进行的。
 
 完整的正确用法：
@@ -58,7 +58,7 @@ layout: post
 错误：
 
 > 今天出去买菜花了 5000元。
-> 
+>
 > 今天出去买菜花了5000元。
 
 #### 数字与单位之间无需增加空格
@@ -69,19 +69,19 @@ layout: post
 错误：
 
 > 我家的光纤入户宽带有 10 Gbps，SSD 一共有 20 TB。
-> 
+>
 另外，度／百分比与数字之间不需要增加空格：
 
 正确：
 
 > 今天是 233° 的高温。
-> 
+>
 > 新 MacBook Pro 有 15% 的 CPU 性能提升。
 
 错误：
 
 > 今天是 233 ° 的高温。
-> 
+>
 > 新 MacBook Pro 有 15 % 的 CPU 性能提升。
 
 #### 全角标点与其他字符之间不加空格
@@ -103,17 +103,17 @@ Microsoft 有个 [-ms-text-autospace ](http://msdn.microsoft.com/en-us/library/i
 正确：
 
 > 德国队竟然战胜了巴西队！
-> 
+>
 > 她竟然对你说「喵」？！
 
 错误：
 
 > 德国队竟然战胜了巴西队！！
-> 
+>
 > 德国队竟然战胜了巴西队！！！！！！！！
-> 
+>
 > 她竟然对你说「喵」？？！！
-> 
+>
 > 她竟然对你说「喵」？！？！？？！！
 
 ### 全角和半角
@@ -124,17 +124,17 @@ Microsoft 有个 [-ms-text-autospace ](http://msdn.microsoft.com/en-us/library/i
 正确：
 
 > 嗨！你知道嘛？今天前台的小妹跟我说「喵」了哎！
-> 
+>
 > 核磁共振成像（NMRI）是什么原理都不知道？JFGI！
 
 错误：
 
 > 嗨! 你知道嘛? 今天前台的小妹跟我说 "喵" 了哎!
-> 
+>
 > 嗨!你知道嘛?今天前台的小妹跟我说"喵"了哎!
-> 
+>
 > 核磁共振成像 (NMRI) 是什么原理都不知道? JFGI!
-> 
+>
 > 核磁共振成像(NMRI)是什么原理都不知道?JFGI!
 
 #### 数字使用半角字符
@@ -152,13 +152,13 @@ Microsoft 有个 [-ms-text-autospace ](http://msdn.microsoft.com/en-us/library/i
 正确：
 
 > 乔布斯那句话是怎么说的？「Stay hungry, stay foolish.」
-> 
+>
 > 推荐你阅读《Hackers & Painters: Big Ideas from the Computer Age》，非常的有趣。
 
 错误：
 
 > 乔布斯那句话是怎么说的？「Stay hungry，stay foolish。」
-> 
+>
 > 推荐你阅读《Hackers＆Painters：Big Ideas from the Computer Age》，非常的有趣。
 
 ### 名词
@@ -169,29 +169,29 @@ Microsoft 有个 [-ms-text-autospace ](http://msdn.microsoft.com/en-us/library/i
 正确：
 
 > 使用 GitHub 登录
-> 
+>
 > 我们的客户有 GitHub、Foursquare、Microsoft Corporation、Google、Facebook, Inc.。
 
 错误：
 
 > 使用 github 登录
-> 
+>
 > 使用 GITHUB 登录
-> 
+>
 > 使用 Github 登录
-> 
+>
 > 使用 gitHub 登录
-> 
+>
 > 使用 gｲんĤЦ8 登录
-> 
+>
 > 我们的客户有 github、foursquare、microsoft corporation、google、facebook, inc.。
-> 
+>
 > 我们的客户有 GITHUB、FOURSQUARE、MICROSOFT CORPORATION、GOOGLE、FACEBOOK, INC.。
-> 
+>
 > 我们的客户有 Github、FourSquare、MicroSoft Corporation、Google、FaceBook, Inc.。
-> 
+>
 > 我们的客户有 gitHub、fourSquare、microSoft Corporation、google、faceBook, Inc.。
-> 
+>
 > 我们的客户有 gｲんĤЦ8、ｷouЯƧquﾑгє、๓เςг๏ร๏Ŧt ς๏гק๏гคtเ๏ภn、900913、ƒ4ᄃëв๏๏к, IПᄃ.。
 
 注意：当网页中需要配合整体视觉风格而出现全部大写／小写的情形，HTML 中请使用标准的大小写规范进行书写；并通过 `text-transform: uppercase`;／`text-transform: lowercase`; 对表现形式进行定义。
@@ -213,13 +213,13 @@ Microsoft 有个 [-ms-text-autospace ](http://msdn.microsoft.com/en-us/library/i
 用法：
 
 > 请 提交一个 issue 并分配给相关同事。
-> 
+>
 > 访问我们网站的最新动态，请 点击这里 进行订阅！
 
 对比用法：
 
 > 请提交一个 issue 并分配给相关同事。
-> 
+>
 > 访问我们网站的最新动态，请点击这里进行订阅！
 
 #### 简体中文使用直角引号
@@ -233,7 +233,7 @@ Microsoft 有个 [-ms-text-autospace ](http://msdn.microsoft.com/en-us/library/i
 
 ### 工具
 
-|  仓库 |  语言 | 
+|  仓库 |  语言 |
 | -------- | -------- |
 [vinta/paranoid-auto-spacing](https://github.com/vinta/paranoid-auto-spacing)	|JavaScript
 [huei90/pangu.node](https://github.com/huei90/pangu.node)	 | Node.js
@@ -248,7 +248,7 @@ Microsoft 有个 [-ms-text-autospace ](http://msdn.microsoft.com/en-us/library/i
 ### 谁在这样做？
 
 | 网站 | 文案 | UGC |
-| -------- | -------- | -------- |
+| -------- | -------- | --------|
 Apple 中国|	Yes	| N/A
 Apple 香港	| Yes	| N/A
 Apple 台湾| 	Yes| 	N/A
