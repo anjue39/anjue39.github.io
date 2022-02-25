@@ -54,7 +54,6 @@ My rigs are Yaesu FT-817 and UV-5R.
 
 I am also interested in Software Defined Radio (SDR), and having fun with GNURadio project.
 
-![]({{ site.imageurl }}/bh1rlw.png)
 
 
 ## Pinboard
