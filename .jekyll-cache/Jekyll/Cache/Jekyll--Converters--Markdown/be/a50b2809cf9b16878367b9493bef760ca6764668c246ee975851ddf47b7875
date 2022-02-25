@@ -1,0 +1,48 @@
+I"e<h1 id="测试">测试</h1>
+<h2 id="测试-1">测试</h2>
+<blockquote>
+  <p>你好<img src="http://[](http://)" alt="你好" /><br />
+<code>你好，我测试一下</code><br />
+在此页面(一定要有https，感兴趣的同学可以访问http的此页面观察对比现象)<br />
+随手打开Console，粘！</p>
+</blockquote>
+
+<p>注意:里面相关ID的scateu.me字样要与域名相匹配。</p>
+
+<p>注册:</p>
+
+<p>var randomChallengeBuffer = new Uint8Array(32);<br />
+window.crypto.getRandomValues(randomChallengeBuffer);</p>
+
+<p>var base64id = ‘MIIBkzCCATigAwIBAjCCAZMwggE4oAMCAQIwggGTMII=’<br />
+var idBuffer = Uint8Array.from(window.atob(base64id), c=&gt;c.charCodeAt(0))</p>
+
+<p>var publicKey = {<br />
+    challenge: randomChallengeBuffer,</p>
+
+<pre><code>rp: { id: "scateu.me", name: "scateu.me" },
+
+user: {
+    id: idBuffer,
+    name: "alice@example.com",
+    displayName: "Alice von Wunderland"
+},
+
+attestation: 'none',
+
+pubKeyCredParams: [
+    { type: 'public-key',  alg: -7  }, // ES256
+    { type: 'public-key', alg: -257 }  // RS256
+] }
+</code></pre>
+
+<p>navigator.credentials.create({ publicKey })<br />
+    .then((newCredentialInfo) =&gt; {<br />
+        console.log(‘SUCCESS’, newCredentialInfo)<br />
+    })<br />
+    .catch((error) =&gt; {<br />
+        console.log(‘FAIL’, error)<br />
+    })</p>
+
+<p>认证: 把上一步中的ID粘进来</p>
+:ET

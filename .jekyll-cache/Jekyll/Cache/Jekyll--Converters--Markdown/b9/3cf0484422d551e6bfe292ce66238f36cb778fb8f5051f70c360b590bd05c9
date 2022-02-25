@@ -1,0 +1,66 @@
+I"�<h1 id="测试">测试</h1>
+<h2 id="测试-1">测试</h2>
+<blockquote>
+  <p>你好<img src="http://[](http://)" alt="你好" /><br />
+<code>你好，我测试一下</code><br />
+在此页面(一定要有https，感兴趣的同学可以访问http的此页面观察对比现象)<br />
+随手打开Console，粘！</p>
+</blockquote>
+
+<p>注意:里面相关ID的scateu.me字样要与域名相匹配。</p>
+
+<p>注册:</p>
+
+<pre><code>var randomChallengeBuffer = new Uint8Array(32);
+window.crypto.getRandomValues(randomChallengeBuffer);
+
+var base64id = 'MIIBkzCCATigAwIBAjCCAZMwggE4oAMCAQIwggGTMII='
+var idBuffer = Uint8Array.from(window.atob(base64id), c=&gt;c.charCodeAt(0))
+
+var publicKey = {
+    challenge: randomChallengeBuffer,
+</code></pre>
+
+<pre><code>rp: { id: "scateu.me", name: "scateu.me" },
+
+user: {
+    id: idBuffer,
+    name: "alice@example.com",
+    displayName: "Alice von Wunderland"
+},
+
+attestation: 'none',
+
+pubKeyCredParams: [
+    { type: 'public-key',  alg: -7  }, // ES256
+    { type: 'public-key', alg: -257 }  // RS256
+] }
+</code></pre>
+
+<pre><code>navigator.credentials.create({ publicKey })
+    .then((newCredentialInfo) =&gt; {
+        console.log('SUCCESS', newCredentialInfo)
+    })
+    .catch((error) =&gt; {
+        console.log('FAIL', error)
+    })
+</code></pre>
+
+<p>认证: 把上一步中的ID粘进来<br />
+解决方法</p>
+
+<p>将webrick添加到依赖当中: bundle add webrick<br />
+这个要在项目中执行</p>
+
+<blockquote>
+  <p>在此之外我还瞎折腾了一些东西, 应该跟问题的解决没有多大关系<br />
+除此之外, 我还安装了github-pages: gem install github-pages<br />
+总结<br />
+undefined</p>
+</blockquote>
+
+<p>多看官方文档, 多翻Issue<br />
+————————————————<br />
+版权声明：本文为CSDN博主「去吃饭了Ayo」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。<br />
+原文链接：https://blog.csdn.net/LoveZoeAyo/article/details/120606462</p>
+:ET
