@@ -1,15 +1,8 @@
----
-layout: page
-title: Scan
-permalink: /scan/
----
+I"�<script src="/assets/js/qrcode.min.js"></script>
 
-<script src="/assets/js/qrcode.min.js"></script>
+<h2 id="wechat">Wechat</h2>
 
-## Wechat
-
-
-发....<a href="mailto:anjue39@gmail.com">发电子邮件</a>....不行吗..?
+<p>发….<a href="mailto:anjue39@gmail.com">发电子邮件</a>….不行吗..?</p>
 
 <div id="qrcode"></div>
 
@@ -23,3 +16,5 @@ var qrcode = new QRCode('qrcode', {
   correctLevel: QRCode.CorrectLevel.H
 });
 </script>
+
+:ET

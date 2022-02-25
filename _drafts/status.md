@@ -4,10 +4,8 @@ title: Status
 permalink: /status/
 ---
 
-## Is Scateu Happy Now?
+## Is Anjue Happy Now?
 No.
 
-## Is Scateu's room available?
+## Is Anjue's room available?
 Yes.
-
-

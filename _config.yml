@@ -4,11 +4,11 @@ email: anjue39@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Yet another Anjue's Blog (aka AB)
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://github.com/anjue39/anjue39.github.io" # the base hostname & protocol for your site
+url: "https://anjue39.github.io" # the base hostname & protocol for your site
 twitter_username: anjue39
 github_username:  anjue39
 linkedin_url: "https://anjue39.github.io"
-facebook_url: "https://www.facebook.com/kangw2"
+facebook_url: "https://www.facebook.com/anjue39"
 flickr_url: ""
 disqus_shortname: scateugithubio
 

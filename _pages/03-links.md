@@ -42,7 +42,7 @@ permalink: /links/
     - <http://flowchart.js.org/>
     - <https://knsv.github.io/mermaid/>
  - Araxis Merge / Beyond Compare 差异比对
- - Ascii 风格的流程图 
+ - Ascii 风格的流程图
     - <http://asciiflow.com/>
     - <https://monodraw.helftone.com/>
  - Learn, Build & Test RegEX <http://www.regexr.com/>
@@ -53,7 +53,6 @@ permalink: /links/
  - <https://github.com/lexrus/VPNOn>
  - [微信公众号RSS化](http://weirss.me/)
  - <https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/>
- - 辐射剂量描述表: <https://xkcd.com/radiation/>
  - Geek聚集的'Kickstarter': <https://www.crowdsupply.com/>
  - 网页里画图，转成Bash脚本: [Bashfill](https://max.io/bash.html)
 

@@ -1,0 +1,75 @@
+I"�<h2 id="0-contact">0 Contact</h2>
+
+<pre><code>$ whois https://anjue39.github.io
+
+$ gpg2 --fingerprint 3353B7BD
+pub   4096R/3353B7BD 2015-08-14
+      Key fingerprint = 011F 0492 97D6 5D75 8AC4  6458 D43F 3CE2 3353 B7BD
+uid       [ultimate] Anjue &lt;anjue39@gmail.com&gt;
+uid       [ultimate] [jpeg image of size 14244]
+sub   4096R/19E45ED7 2016-04-06
+</code></pre>
+
+<h2 id="1-motto">1 Motto</h2>
+
+<ul>
+  <li>You have to know the past to understand the present. — Carl Sagan</li>
+  <li>Art is the highest form of hope. - Gerhard Richter</li>
+  <li>You have no responsibility to live up to what other people think you ought to accomplish. I have no responsibility to be like they expect me to be. It’s their mistake, not my failing. - Richard Feynman</li>
+  <li>没有什么是讲一个段子解决不了的，如果有，那就讲两个。</li>
+  <li>不想当黑客的程序员不是好产品经理。</li>
+  <li>Only wimps use tape backup: real men just upload their important stuff on ftp,<br />
+and let the rest of the world mirror it ;) - Torvalds, Linus (1996-07-20).</li>
+  <li>We are drowning in information, but starved for knowledge.” - John Naisbitt</li>
+  <li>You can’t win, by killing your enemy. - <a href="http://arthurx.com/">ArthurX</a></li>
+  <li>The most powerful person in the world is the storyteller. - Steve Jobs, 1994</li>
+  <li>Do. Or do not. There is no try.  - Yoda</li>
+  <li>Everyone you meet is fighting a battle you know nothing about. Be kind. Always.  - Brad Meltzer</li>
+  <li>Religion is a culture of faith; science is a culture of doubt.  - Richard Feynman</li>
+  <li>“If you want total security, go to prison.  There you’re fed, clothed, given medical care and so on. The only thing lacking … is freedom.” - President Eisenhower</li>
+</ul>
+
+<h2 id="装备">装备</h2>
+
+<p>见 <a href="../devices">Devices页面</a>，欢迎来借=。=</p>
+
+<h2 id="cv">CV</h2>
+
+<ul>
+  <li><a href="https://gist.github.com/scateu/ddfa67766de8b7151f66c03f749dc87b">CV.txt</a></li>
+</ul>
+
+<h2 id="业余无线电呼号-callsign-bh1rlw">业余无线电呼号 CallSign: BH1RLW</h2>
+
+<p><a href="http://qrz.com/db/BH1RLW">http://qrz.com/db/BH1RLW</a></p>
+
+<p>BH1RLW is my amateur radio callsign.</p>
+
+<p>I think it probably means :</p>
+
+<ul>
+  <li>Repair Linux Wireless</li>
+  <li>Rapid Lose Weight</li>
+</ul>
+
+<p>I am a new radio amateur in Beijing, China. My name is 蜗牛 ( Anjue ).</p>
+
+<p>I just received my license from CHINESE RADIO SPORTS ASSOCIATION ( CRSA ).</p>
+
+<pre><code>Callsign : BH1RLW
+QTH: Beijing, China.
+</code></pre>
+
+<p>My rigs are Yaesu FT-817 and UV-5R.</p>
+
+<p>I am also interested in Software Defined Radio (SDR), and having fun with GNURadio project.</p>
+
+<p><img src="https://anjue39.github.io/images/bh1rlw.png" alt="" /></p>
+
+<h2 id="pinboard">Pinboard</h2>
+
+<ul>
+  <li><a href="https://pinboard.in/u:scateu/public">Public Pinboard</a></li>
+  <li><a href="https://feeds.pinboard.in/rss/u:scateu/">RSS</a></li>
+</ul>
+:ET
