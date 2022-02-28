@@ -1,8 +1,8 @@
----
++++
 layout: "post"
 title: "Lean’s Openwrt编译过程
 date: "2022-03-01 02:02"
----
++++
 
 ## 注意：
 > - 不要用 root 用户进行编译！！！
