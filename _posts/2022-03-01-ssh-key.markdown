@@ -1,10 +1,7 @@
 ---
-layout: "post"
-title: "ssh key"
-date: "2022-03-01 02:36"
+layout: post
+title: 在 github 上添加 SSH key 的步骤
 ---
-
-## 在 github 上添加 SSH key 的步骤：
 
 #### 1、首先需要检查你电脑是否已经有 SSH key
 
