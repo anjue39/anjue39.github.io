@@ -29,7 +29,7 @@ git branch -D master               //删除本地的master分支
 ```
 
 ```powershell
-3.	git push origin --delete master               //删除github仓库里的master分支
+git push origin --delete master               //删除github仓库里的master分支
 ```
 
 若事先在该仓库里创建了readme文件的话，就需要先将其拉回来再上传
