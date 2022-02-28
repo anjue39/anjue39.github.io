@@ -28,3 +28,6 @@ include: ['_pages']
 
 plugins:
 - jekyll-admin
+
+# 更改时区为 UTC+8
+timezone: Asia/Shanghai
