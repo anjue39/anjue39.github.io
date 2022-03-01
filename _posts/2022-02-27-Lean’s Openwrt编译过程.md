@@ -20,40 +20,44 @@ sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git
 命令下载好源代码，然后 ***cd lede* **进入目录
 配置编译
 ```java
-./scripts/feeds update -a 
+./scripts/feeds update -a
 ./scripts/feeds install -a
-make menuconfig 
+make menuconfig
 ```
 之后进入如下界面，这实际上是一个配置界面，用来配置编译的配置，并不是编译的过程。
 如果更新不成，执行 `make distclean `命令恢复，重新执行更新和安装命令，直至更新100%成功。
-
- 进入Target System和Subtarget勾选需要编译的平台。
-
- 进入Target Images勾选你需要的固件格式等(img、vmdk等这里我保持默认，默认也够用了吧？)
-
- 进入LuCI–>Applications内选中你需要的插件
-
-
+ 进
+![](assets/markdown-img-paste-20220302002757958.png)
+入Target System和Subtarget勾选需要编译的平台。
+ 进
+![](assets/markdown-img-paste-20220302002841847.png)
+入Target Images勾选你需要的固件格式等(img、vmdk等这里我保持默认，默认也够用了吧？)
+ 进
+![](assets/markdown-img-paste-20220302002859369.png)
+入LuCI–>Applications内选中你需要的插件
+![](assets/markdown-img-paste-20220302002917431.png)
+![](assets/markdown-img-paste-20220302002941275.png)
 
 
 
 勾选完需要的东西就可以退回第一个界面保存退出，保存按默认的文件名称(`.config`）保存即可，不需要修改。编译会根据.config的内容编译，恢复到初始配置删掉.config或者执行 `make dirclean`，恢复到编译配置前的初始状态。
 在编译的过程中，要下载一些组件什么的，如果你不翻墙，下载速度会非常慢，甚至下载不下来。
-## 预下载 
-保存后执行以下命令 
+## 预下载
+保存后执行以下命令
 `make -j8 download V=s `下载dl库（国内请尽量全局科学上网）
 如果下载不成功，重复再下载或者把线程调低一点，直至成功
 编译
 `make -j1 V=s `   //第一次编译非常的慢，要花上一两个小时
-
+![](assets/markdown-img-paste-2022030200300584.png)
 
 如果更新不成，执行 `make clean` 命令恢复编译make前的初始状态，直至更新100%成功。
 取得固件
 `cd bin/targets/bcm53xx/generic/`
 注：这个bin目录在源码的lede路径下，非根目录下的bin目录
 整个编译过程如下图
-
-## 二次编译
+##
+![](assets/markdown-img-paste-20220302003023469.png)
+ 二次编译
 ```asp
 cd lede
 git pull 同步更新大雕源码
