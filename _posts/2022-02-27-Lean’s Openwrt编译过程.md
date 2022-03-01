@@ -33,10 +33,10 @@ make menuconfig
 ![](assets/markdown-img-paste-20220302002841847.png)
 入Target Images勾选你需要的固件格式等(img、vmdk等这里我保持默认，默认也够用了吧？)
  进
-![](blob/main/_posts/markdown-img-paste-20220302002859369.png)
+![](blob/main/_posts/assets/markdown-img-paste-20220302002859369.png)
 入LuCI–>Applications内选中你需要的插件
 ![](images/markdown-img-paste-20220302002917431.png)
-![](assets/markdown-img-paste-20220302002941275.png)
+![]({{ imageurl.url }}/markdown-img-paste-20220302002859369.png)
 
 
 勾选完需要的东西就可以退回第一个界面保存退出，保存按默认的文件名称(`.config`）保存即可，不需要修改。编译会根据.config的内容编译，恢复到初始配置删掉.config或者执行 `make dirclean`，恢复到编译配置前的初始状态。
