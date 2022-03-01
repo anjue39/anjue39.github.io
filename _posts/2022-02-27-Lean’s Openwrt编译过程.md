@@ -27,10 +27,10 @@ make menuconfig
 之后进入如下界面，这实际上是一个配置界面，用来配置编译的配置，并不是编译的过程。
 如果更新不成，执行 `make distclean `命令恢复，重新执行更新和安装命令，直至更新100%成功。
  进
-![](assets/markdown-img-paste-20220302002757958.png)
+![](/assets/markdown-img-paste-20220302002757958.png)
 入Target System和Subtarget勾选需要编译的平台。
  进
-![](assets/markdown-img-paste-20220302002841847.png)
+![](/assets/markdown-img-paste-20220302002841847.png)
 入Target Images勾选你需要的固件格式等(img、vmdk等这里我保持默认，默认也够用了吧？)
  进
 ![]({{ site.imageurl }}/markdown-img-paste-20220302002859369.png)
