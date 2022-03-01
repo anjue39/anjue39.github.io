@@ -52,9 +52,11 @@ make menuconfig
 `cd bin/targets/bcm53xx/generic/`
 注：这个bin目录在源码的lede路径下，非根目录下的bin目录
 
-##整个编译过程如下图
+
+## 整个编译过程如下图
 ![]({{ site.imageurl }}/markdown-img-paste-20220302003023469.png)
- 二次编译
+
+## 二次编译
 ```asp
 cd lede
 git pull 同步更新大雕源码
