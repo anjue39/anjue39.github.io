@@ -1,8 +1,6 @@
 ---
 title: 'Lean’s Openwrt编译过程'
 layout: post
-tags: []
-category: Uncategoried
 ---
 ## 注意：
 > - 不要用 root 用户进行编译！！！
@@ -12,7 +10,7 @@ category: Uncategoried
 
 ## 安装必备组件
 命令行输入 `sudo apt-get update` ，然后输入
-```asp
+```bash
 sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3 python2.7 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib antlr3 gperf wget curl swig rsync
 ```
 ## 开始编译
@@ -57,7 +55,7 @@ make menuconfig
 ![]({{ site.imageurl }}/markdown-img-paste-20220302003023469.png)
 
 ## 二次编译
-```asp
+```bash
 cd lede
 git pull 同步更新大雕源码
 /scripts/feeds update -a && ./scripts/feeds install -a
@@ -66,7 +64,7 @@ make -j8 download
 make -j$(($(nproc) + 1)) V=s
 ```
 如果需要重新配置：
-```csharp
+```bash
 rm -rf ./tmp && rm -rf .config
 make menuconfig
 make -j$(($(nproc) + 1)) V=s
@@ -75,7 +73,7 @@ make -j$(($(nproc) + 1)) V=s
 ## 增加luci-theme-argon最新主题
 进入 openwrt/package/lean 或者其他目录
 ### Lean源码
-```csharp
+```bash
 cd lede/package/lean  
 rm -rf luci-theme-argon  
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  
@@ -84,7 +82,7 @@ make -j1 V=s
 ```
 
 ### Openwrt 官方源码
-```csharp
+```bash
 cd openwrt/package
 git clone https://github.com/jerrykuku/luci-theme-argon.git  
 make menuconfig #choose LUCI->Theme->Luci-theme-argon  
@@ -94,24 +92,24 @@ make -j1 V=s
 
 ## 常用修改
 # Modify default IP
-```csharp
+```bash
 sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
 ```
 
 # Modify default hostname
-```csharp
+```bash
 sed -i 's/OpenWrt/LEDE/g' package/base-files/files/bin/config_generate
 ```
 
 # Uncomment a feed source
-```asp
+```bash
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 ```
 # Replace luci-theme-argon
-```asp
+```bash
 cd package/lean  
 rm -rf luci-theme-argon  
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  

@@ -1,7 +1,6 @@
 ---
 layout: "post"
 title: "Github上传代码及解决main主分支问题"
-date: "2022-03-01 02:02"
 ---
 
 **github已经更新将main作为主分支，用以前上传master分支的方式就总是要切换分支很麻烦，所以记录一下解决方法**
