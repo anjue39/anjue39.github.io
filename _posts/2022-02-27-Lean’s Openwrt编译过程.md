@@ -3,11 +3,12 @@ title: 'Lean’s Openwrt编译过程'
 layout: post
 ---
 ## 注意：
-> - 不要用 root 用户进行编译！！！
+```bash
+- 不要用 root 用户进行编译！！！
 - 国内用户编译前最好准备好梯子
 - 默认登陆IP 192.168.2.1 密码 password
 - 首先装好 Ubuntu 64bit，推荐 Ubuntu 20.04 LTS x64
-
+```
 ## 安装必备组件
 命令行输入 `sudo apt-get update` ，然后输入
 ```bash
