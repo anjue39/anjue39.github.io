@@ -33,7 +33,7 @@ make menuconfig
 ![](assets/markdown-img-paste-20220302002841847.png)
 入Target Images勾选你需要的固件格式等(img、vmdk等这里我保持默认，默认也够用了吧？)
  进
-![](blob/main/_posts/assets/markdown-img-paste-20220302002859369.png)
+![]({{ site.imageurl }}/assets/markdown-img-paste-20220302002859369.png)
 入LuCI–>Applications内选中你需要的插件
 ![](images/markdown-img-paste-20220302002917431.png)
 ![]({{ site.imageurl }}/markdown-img-paste-20220302002859369.png)
