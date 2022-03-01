@@ -30,7 +30,7 @@ make menuconfig
 ![](/assets/markdown-img-paste-20220302002757958.png)
 入Target System和Subtarget勾选需要编译的平台。
  进
-![](/assets/markdown-img-paste-20220302002841847.png)
+![](/_posts/assets/markdown-img-paste-20220302002841847.png)
 入Target Images勾选你需要的固件格式等(img、vmdk等这里我保持默认，默认也够用了吧？)
  进
 ![]({{ site.imageurl }}/markdown-img-paste-20220302002859369.png)
