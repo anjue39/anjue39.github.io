@@ -35,7 +35,7 @@ make menuconfig
  进
 ![]({{ site.imageurl }}/markdown-img-paste-20220302002859369.png)
 入LuCI–>Applications内选中你需要的插件
-![](images/markdown-img-paste-20220302002917431.png)
+![](/images/markdown-img-paste-20220302002917431.png)
 ![]({{ site.imageurl }}/markdown-img-paste-20220302002859369.png)
 
 
