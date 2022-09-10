@@ -2,7 +2,6 @@
 title: mac中bash和zsh终端切换方法和zsh配置
 layout: post
 tags: []
-category: Uncategoried
 ---
 bash命令行工具是mac自带的，在网上查找自行安装zsh，然后运行命令的时候报错了
 
