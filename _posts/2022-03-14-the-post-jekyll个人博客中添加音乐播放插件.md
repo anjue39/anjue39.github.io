@@ -2,7 +2,6 @@
 title: jekyll个人博客中添加音乐播放插件
 layout: post
 tags: []
-category: Uncategoried
 ---
 文章首发[个人博客](https://yizibi.github.io/),转载参考注明来源[个人博客中添加音乐播放插件](https://yizibi.github.io/2018/10/15/jekyll%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E6%8F%92%E4%BB%B6/)
 
