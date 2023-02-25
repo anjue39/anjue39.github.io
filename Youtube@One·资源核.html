@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Preview YAML File</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <pre id="yaml-content"></pre>
+  <script>
+    $.ajax({
+      url: "https://yarj3q.bn.files.1drv.com/y4m7kEOIiZg7onMmP0_usnzT5-9i-heFXi4XUfwxnXGX9EOzcu35Rpq9XsQ5iN6x_MCkQvpbFjEN5pNb6AutRlVsPNFh6GC3VWfHTL39llNbGAMDTqY1Hh10vfTjalT-fUhq45JYFbhrExy6MG89mxV3HNERhEoxvvmzzOyYKuHXj2y3UXb-dx1rKFK9HWlcYjjZgJy6PZ7v526Y9uuEEcbrw",
+      dataType: "text",
+      success: function(data) {
+        // 将文件内容转换成HTML格式并插入页面
+        var yamlContent = $("<pre>").text(data).addClass("yaml");
+        $("#yaml-content").text(data);
+      }
+    });
+  </script>
+  <style>
+    /* 可选：自定义CSS样式以美化显示 */
+    .yaml {
+      background-color: #f7f7f7;
+      border: 1px solid #ddd;
+      padding: 10px;
+      white-space: pre-wrap;
+    }
+  </style>
+</body>
+</html>
