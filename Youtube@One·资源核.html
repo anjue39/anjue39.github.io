@@ -12,9 +12,11 @@
       url: "https://yarj3q.bn.files.1drv.com/y4m7kEOIiZg7onMmP0_usnzT5-9i-heFXi4XUfwxnXGX9EOzcu35Rpq9XsQ5iN6x_MCkQvpbFjEN5pNb6AutRlVsPNFh6GC3VWfHTL39llNbGAMDTqY1Hh10vfTjalT-fUhq45JYFbhrExy6MG89mxV3HNERhEoxvvmzzOyYKuHXj2y3UXb-dx1rKFK9HWlcYjjZgJy6PZ7v526Y9uuEEcbrw",
       dataType: "text",
       success: function(data) {
+        // 删除前六行
+        var newData = data.split("\n").slice(6).join("\n");
         // 将文件内容转换成HTML格式并插入页面
-        var yamlContent = $("<pre>").text(data).addClass("yaml");
-        $("#yaml-content").text(data);
+        var yamlContent = $("<pre>").text(newData).addClass("yaml");
+        $("#yaml-content").text(newData);
       }
     });
   </script>
