@@ -4,7 +4,6 @@ layout: post
 ---
 > 这是一个名为 edgetunnel 的 github 项目，可以通过 Cloudflare Workers 部署一个 vless协议的 V2ray代理。
 
-提醒各位，本项目仅限技术交流使用，请勿滥用，由此引起的账号封禁等风险后果自负。
 
 ## 
 
@@ -76,13 +75,8 @@ layout: post
 
 ![notion image](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F3936ca22-5b6b-48b1-a6e2-b5085c55225c%2FSnipaste_2023-06-24_13-50-41.jpg?table=block&id=b77b0f3d-3940-41cc-8e04-35fd9acebc16)
 
-`vless://d342d11e-d424-4583-b36e-524ab1f0afa4@icook.hk:80?encryption=none&security=none&sni=hello-world-tight-shadow-6768.idong-5c5.workers.dev&fp=randomized&type=ws&host=hello-world-tight-shadow-6768.idong-5c5.workers.dev&path=%2F%3Fed%3D2048#hello-world-tight-shadow-6768.idong-5c5.workers.dev`
+> vless://d342d11e-d424-4583-b36e-524ab1f0afa4@icook.hk:80?encryption=none&security=none&sni=hello-world-tight-shadow-6768.idong-5c5.workers.dev&fp=randomized&type=ws&host=hello-world-tight-shadow-6768.idong-5c5.workers.dev&path=%2F%3Fed%3D2048#hello-world-tight-shadow-6768.idong-5c5.workers.dev
 
-JavaScript
-
-Copy
-
-微信扫码分享
 
 - **作者:**[adone](https://nb.adone.eu.org/about)
 - **链接:**[https://nb.adone.eu.org/article/edgetunnel](https://nb.adone.eu.org/article/edgetunnel)
