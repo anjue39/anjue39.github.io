@@ -80,7 +80,7 @@ v2rayN 会在视频中演示
 有域名的例子：  
 只需要替换优选 ip，然后 sni 和 host 检查时自己的域名哦
 
-
+---
 [原创](http://blog.piig.top/posts/10934/ "该文章为原创文章，注意版权协议") cloudflare worker 搭建 vless
 
 文章作者: [Masheep](http://blog.piig.top/)
