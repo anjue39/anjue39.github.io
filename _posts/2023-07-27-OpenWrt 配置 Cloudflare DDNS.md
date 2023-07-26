@@ -1,6 +1,7 @@
 ---
 title: OpenWrt 配置 Cloudflare DDNS
 layout: post
+---
 ## 前言
 
 Cloud­flare 作为国际知名 CDN 大厂，对于在国际互联网自由冲浪的小伙伴应该不陌生，其免费 CDN 服务是加速还是减速在曾一度是热门话题。即使不使用 CDN 服务，其 DNS 服务也是一个非常好的选择，抛开其它的不谈，仅不需要实名认证这一点来说，就比国内的厂商不知道高到哪里去了。博主的域名都是通过 Cloud­flare 进行托管解析的，所以 DDNS 也需要使用到 Cloud­flare。
