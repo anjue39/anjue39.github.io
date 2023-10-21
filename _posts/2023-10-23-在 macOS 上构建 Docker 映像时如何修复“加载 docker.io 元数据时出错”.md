@@ -1,3 +1,8 @@
+---
+title: 在 macOS 上构建 Docker 映像时如何修复“加载 docker.io 元数据时出错”
+layout: post
+---
+
 If you’ve spent a significant amount of time working with Docker on macOS, there’s a chance you might have encountered the error “Error load metadata for docker.io” when building your Docker images. This error often pertains to issues related to image downloading and can be particularly linked to authentication problems. This can occur, for example, after you’ve reinstalled the Docker application on your system.  
 如果您花费了大量时间在 macOS 上使用 Docker，那么在构建 Docker 映像时，您可能会遇到“错误加载 docker.io 元数据”错误。此错误通常与图像下载相关的问题有关，尤其可能与身份验证问题相关。例如，在系统上重新安装 Docker 应用程序后，可能会发生这种情况。
 
