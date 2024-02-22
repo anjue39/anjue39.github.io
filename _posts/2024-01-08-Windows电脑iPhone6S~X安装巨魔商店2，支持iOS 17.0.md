@@ -1,5 +1,5 @@
 ---
-title: 在 Docker 容器中安装和配置 Gitea
+title: Windows电脑iPhone6S~X安装巨魔商店2，支持iOS 17.0
 layout: post
 ---
 # ![](https://dkxuanye.cn/wp-content/uploads/2023/11/09ece245df43ddc52c8779b16704bce.png)Windows 使用教程
