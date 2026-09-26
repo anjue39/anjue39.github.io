@@ -2,6 +2,7 @@
 title: 'iPhone 12 Pro Max 独立设备解锁流程'
 layout: post
 ---
+```text
 📱 Freedom Mobile iPhone 12 Pro Max 独立设备解锁流程
 ├── 📋 阶段一：凭证提交与初审（9月19日 - 9月21日）
 │   ├── 🗓️ 9月19日（周五）：提交 POP 凭证（独立设备 / 无合约绑定）
@@ -24,3 +25,4 @@ layout: post
 └── 🔓 阶段五：预测 - 最终推送与解锁（9月28日及以后）
     ├── 📤 9月28日（周一）：Back Office 优先提取加急工单并提交至 Apple GSX
     └── ✨ 9月28日 - 29日：Apple GSX 策略更新，插入非 Freedom 卡联网激活解锁
+```
