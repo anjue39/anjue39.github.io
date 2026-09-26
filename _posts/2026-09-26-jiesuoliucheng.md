@@ -2,8 +2,8 @@
 title: 'iPhone 12 Pro Max 独立设备解锁流程'
 layout: post
 ---
-```text
-Freedom Mobile iPhone 12 Pro Max 独立设备解锁流程
+```scss
+Freedom Mobile iPhone 独立设备解锁流程
 │
 ├── 阶段一：凭证提交与初审阶段 (9月19日 - 9月21日) [已完成]
 │   ├── 9月19日 (周五)：你提交购买凭证 (POP) 申请
