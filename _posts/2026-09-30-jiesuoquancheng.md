@@ -23,7 +23,7 @@ Hello! Welcome to Freedom Mobile Support. My name is Alex. How can I help you to
 
 **User（你）**:  
 Hello Alex! I need an official carrier unlock for my iPhone 12 Pro Max (IMEI: 356721116676256). It is a non-account, standalone device. I have the official Proof of Purchase (POP) ready. Could you please open a formal unlock ticket and provide an email submission link so I can upload my invoice?  
-> *中文翻译：Alex 您好！我需要对我这台 iPhone 12 Pro Max [IMEI: 356721116676256] 进行官方运营商解锁。这是一台非账户绑定的独立设备。我已准备好官方购机凭证 [POP]。能否请您建立一个正式的解锁工单并提供邮件提交链接，以便我上传发票？*
+> *中文翻译：Alex 您好！我需要对我这台 iPhone 12 Pro Max [IMEI: 35672*****76256] 进行官方运营商解锁。这是一台非账户绑定的独立设备。我已准备好官方购机凭证 [POP]。能否请您建立一个正式的解锁工单并提供邮件提交链接，以便我上传发票？*
 
 **Tier 1 Customer Service Agent（一线客服）**:  
 I can certainly help you with that. Before we proceed, could you confirm if this phone has any unpaid bills, or if it is currently tied to an active Freedom Mobile phone number?  
@@ -42,7 +42,7 @@ Great! I have just sent a secure document submission link to your email. Please 
 #### 📧 附：POP 凭证及充值凭证邮件回复模板（发送至客服提供的邮件地址）
 
 ```text
-Subject: Proof of Purchase (POP) Submission - iPhone 12 Pro Max - IMEI: 356721116676256
+Subject: Proof of Purchase (POP) Submission - iPhone 12 Pro Max - IMEI: 35672*****76256
 
 Dear Freedom Mobile Back Office Team,
 
@@ -50,7 +50,7 @@ Please find attached the official Proof of Purchase (POP) receipt and top-up tra
 
 Device Details:
 - Model: iPhone 12 Pro Max
-- IMEI: 356721116676256
+- IMEI: 35672*****76256
 - Status: Non-account, standalone, fully paid-off device.
 
 Attached Files:
