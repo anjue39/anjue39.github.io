@@ -150,7 +150,8 @@ Got it! Thank you so much Supervisor Maria for issuing Case ID C106334249! I jus
 **Maria (Operations Supervisor)**:  
 That was super fast! I am so glad to hear that your iPhone is now fully unlocked! Thank you for your kind words and for choosing Freedom Mobile. Have a great day!  
 > *中文翻译：这速度太快了！非常高兴听到您的 iPhone 现在已经彻底无锁了！感谢您的赞美，也感谢选择 Freedom Mobile。祝您生活愉快！*
+
 ---
 
-### 结语
+### 📝 结语
 按照本指南提供的“凭证齐备 + 锁定截止日 + 到期直接找 Supervisor 冲刺”策略，可以最大程度避免工单被无休止地拖延。沟通时保持礼貌但坚定的态度，拿好所有的工单编号（Case ID），相信您的设备也能顺畅完成官方解锁！如果在实际操作中遇到任何特殊变数，随时沟通调整。祝您官解顺利！
