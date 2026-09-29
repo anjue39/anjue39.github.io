@@ -37,6 +37,34 @@ No, it has zero balance and is not tied to any active account. It is a completel
 Great! I have just sent a secure document submission link to your email. Please reply to that email with a clear photo or PDF of your purchase receipt.  
 > *中文翻译：太好了！我刚刚向您的邮箱发送了一个安全文件提交链接。请回复该邮件并附上您购机收据的清晰照片或 PDF。*
 
+---
+
+#### 📧 附：POP 凭证及充值凭证邮件回复模板（发送至客服提供的邮件地址）
+
+```text
+Subject: Proof of Purchase (POP) Submission - iPhone 12 Pro Max - IMEI: 356721116676256
+
+Dear Freedom Mobile Back Office Team,
+
+Please find attached the official Proof of Purchase (POP) receipt and top-up transaction record for my device unlock request.
+
+Device Details:
+- Model: iPhone 12 Pro Max
+- IMEI: 356721116676256
+- Status: Non-account, standalone, fully paid-off device.
+
+Attached Files:
+1. Official Purchase Receipt / Invoice (POP)
+2. Top-up / Payment Transaction Proof
+
+Please review the attached documents and update my unlock ticket accordingly. 
+
+Thank you for your assistance!
+
+Best regards,
+[Your Name]
+```
+
 *(通过邮件提交 POP 发票后)*
 
 **User（你）**:  
