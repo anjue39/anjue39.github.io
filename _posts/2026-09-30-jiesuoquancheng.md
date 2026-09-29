@@ -22,7 +22,7 @@ Hello! Welcome to Freedom Mobile Support. My name is Alex. How can I help you to
 > *中文翻译：您好！欢迎联系 Freedom Mobile 支持团队。我是 Alex，请问今天有什么可以帮您？*
 
 **User（你）**:  
-Hello Alex! I need an official carrier unlock for my iPhone 12 Pro Max (IMEI: 356721116676256). It is a non-account, standalone device. I have the official Proof of Purchase (POP) ready. Could you please open a formal unlock ticket and provide an email submission link so I can upload my invoice?  
+Hello Alex! I need an official carrier unlock for my iPhone 12 Pro Max (IMEI: 35672*****76256). It is a non-account, standalone device. I have the official Proof of Purchase (POP) ready. Could you please open a formal unlock ticket and provide an email submission link so I can upload my invoice?  
 > *中文翻译：Alex 您好！我需要对我这台 iPhone 12 Pro Max [IMEI: 35672*****76256] 进行官方运营商解锁。这是一台非账户绑定的独立设备。我已准备好官方购机凭证 [POP]。能否请您建立一个正式的解锁工单并提供邮件提交链接，以便我上传发票？*
 
 **Tier 1 Customer Service Agent（一线客服）**:  
@@ -150,3 +150,7 @@ Got it! Thank you so much Supervisor Maria for issuing Case ID C106334249! I jus
 **Maria (Operations Supervisor)**:  
 That was super fast! I am so glad to hear that your iPhone is now fully unlocked! Thank you for your kind words and for choosing Freedom Mobile. Have a great day!  
 > *中文翻译：这速度太快了！非常高兴听到您的 iPhone 现在已经彻底无锁了！感谢您的赞美，也感谢选择 Freedom Mobile。祝您生活愉快！*
+---
+
+### 结语
+按照本指南提供的“凭证齐备 + 锁定截止日 + 到期直接找 Supervisor 冲刺”策略，可以最大程度避免工单被无休止地拖延。沟通时保持礼貌但坚定的态度，拿好所有的工单编号（Case ID），相信您的设备也能顺畅完成官方解锁！如果在实际操作中遇到任何特殊变数，随时沟通调整。祝您官解顺利！
