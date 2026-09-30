@@ -15,15 +15,57 @@ layout: post
 
 ## 🎙️ 全流程模拟对白
 
-### 第一幕：发起申请、提交发票、获取初始单号与锁死截止日期（9月19日）
+### 第一幕：发起申请、攻防击穿客服拒绝、提交发票与锁死截止日期（9月19日）
 
-**Tier 1 Customer Service Agent（一线客服）**:  
-Hello! Welcome to Freedom Mobile Support. My name is Alex. How can I help you today?  
+**Tier 1 Customer Service Agent（一线客服）：**  
+Hello! Welcome to Freedom Mobile Support. My name is Alex. How can I help you today?
+
 > *中文翻译：您好！欢迎联系 Freedom Mobile 支持团队。我是 Alex，请问今天有什么可以帮您？*
 
-**User（你）**:  
-Hello Alex! I need an official carrier unlock for my iPhone 12 Pro Max (IMEI: 35672*****76256). It is a non-account, standalone device. I have the official Proof of Purchase (POP) ready. Could you please open a formal unlock ticket and provide an email submission link so I can upload my invoice?  
-> *中文翻译：Alex 您好！我需要对我这台 iPhone 12 Pro Max [IMEI: 35672*****76256] 进行官方运营商解锁。这是一台非账户绑定的独立设备。我已准备好官方购机凭证 [POP]。能否请您建立一个正式的解锁工单并提供邮件提交链接，以便我上传发票？*
+**User（你）：**  
+Hello Alex! I need an official carrier unlock for my iPhone 12 Pro Max (IMEI: 356721116676256). It is a non-account, standalone device. I have the official Proof of Purchase (POP) ready. Could you please open a formal unlock ticket and provide an email submission link so I can upload my invoice?
+
+> *中文翻译：Alex 您好！我需要对我这台 iPhone 12 Pro Max [IMEI: 356721116676256] 进行官方运营商解锁。这是一台非账户绑定的独立设备。我已准备好官方购机凭证 [POP]。能否请您建立一个正式的解锁工单并提供邮件提交链接，以便我上传发票？*
+
+**Tier 1 Customer Service Agent（一线客服）：**  
+I see. To process an unlock request, please provide the active Freedom Mobile account number or phone number associated with this device.
+
+> *中文翻译：明白。要处理解锁申请，请提供与该设备绑定的活跃 Freedom Mobile 账户或手机号码。*
+
+**User（你）：**  
+This is a standalone, second-hand device purchased from a third-party market, so it is not linked to any active Freedom Mobile account. As per carrier policy and CRTC guidelines, device unlock requests for fully paid-off, non-account hardware can be processed using the IMEI and Proof of Purchase (POP). Please open a standalone non-account unlock ticket for me.
+
+> *中文翻译：这是一台从第三方市场购买的独立二手设备，因此未绑定任何活跃的 Freedom 账户。根据运营商政策及 CRTC 指引，已结清的非账户硬件可通过 IMEI 和购机凭证 [POP] 直接申请解锁。请帮我开立一个独立的非账户解锁工单。*
+
+**Tier 1 Customer Service Agent（一线客服）：**  
+Unfortunately, our policy states that only the original account holder who originally purchased the phone from Freedom can request an unlock.
+
+> *中文翻译：很抱歉，我们的政策规定只有最初从 Freedom 购买该手机的原始账户持有人才能申请解锁。*
+
+**User（你）：**  
+I understand your policy regarding active accounts, but I am the current legal owner of this physical device with the official Proof of Purchase (POP) and receipt. Since the device is fully paid off with zero balance, CRTC Wireless Code requires carriers to unlock eligible devices. I have the valid POP ready—please send me the email submission link so Back Office can verify my receipt.
+
+> *中文翻译：我理解您关于活跃账户的规定，但我拥有官方购机凭证 [POP] 和收据，是该物理设备的合法持有者。鉴于该设备已完全结清无欠费，CRTC 无线准则要求运营商为合规设备解锁。我已准备好有效 POP，请向我发送邮件提交链接，以便后台验证发票。*
+
+**Tier 1 Customer Service Agent（一线客服）：**  
+I just ran your IMEI in my system, and it shows this device is not eligible for automatic unlocking.
+
+> *中文翻译：我刚刚在系统里查了您的 IMEI，系统显示该设备不符合自动解锁条件。*
+
+**User（你）：**  
+That is exactly why I am requesting a manual Back Office review with Proof of Purchase. Non-account or archived IMEIs often fail the automated system check, but they are fully eligible once the invoice is verified by your Back Office team. Please issue a Case ID and provide the document upload link so I can submit my POP.
+
+> *中文翻译：这正是为什么我要求通过购机凭证进行人工后台审核。未绑定账户或归档的 IMEI 往往无法通过自动化系统检测，但只要后台团队验证了发票即完全符合资质。请开立 Case ID 并提供文件上传链接，以便我提交 POP。*
+
+**Tier 1 Customer Service Agent（一线客服）：**  
+In that case, you will need to bring your physical purchase receipt to a Freedom Retail Store to get it unlocked in person.
+
+> *中文翻译：这样的话，您需要带上您的纸质购机收据去 Freedom 线下零售店亲自办理解锁。*
+
+**User（你）：**  
+Retail stores do not have the technical tools or GSX authorization to process backend overrides or push activation server requests. All non-account POP unlocks are handled exclusively by your Back Office team via support tickets. Please generate the ticket and email submission link for me now.
+
+> *中文翻译：线下门店没有技术工具或 GSX 授权来处理后台覆盖或推送激活服务器申请。所有非账户 POP 解锁均由贵司后台团队通过工单形式统一处理。请现在帮我生成工单和邮件提交链接。*
 
 **Tier 1 Customer Service Agent（一线客服）**:  
 I can certainly help you with that. Before we proceed, could you confirm if this phone has any unpaid bills, or if it is currently tied to an active Freedom Mobile phone number?  
